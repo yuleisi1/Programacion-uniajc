@@ -1,0 +1,8 @@
+Inicio
+  "Ingrese la tarifa horaria del trabajador: "
+    Leer tarifa_horaria
+ "Ingrese el número de horas trabajadas por día: "
+    Leer horas_diarias
+    salario_semanal ← tarifa_horaria * horas_diarias * 5
+  "El salario semanal es: ", salario_semanal
+Fin
