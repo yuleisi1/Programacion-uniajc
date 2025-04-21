@@ -1,14 +1,15 @@
-public class EjecutarCirculo {
-    public static void main(String[] args) {
-
-        float r = 2.3; //radio
-        //creacion del objeto 
+public class EjecutarCirculo{
+    public static void main(String[] args){
+        double r = 2.3; //radio
+       
+        //Creación del objeto
         Circulo objCirculo1 = new Circulo(r);
-
-        System.out.println("Perimetro:" + objCirculo1.calcularPerimetro());
-
-        System.out.println("Area:"
-        + objCirculo1.calcularArea());
+ 
+        //llamado a los métodos de la clase
+        System.out.println("Perímetro: " + objCirculo1.calcularPerimetro());
+ 
+        System.out.println("Área: " + objCirculo1.calcularArea());
+ 
     }
-    
 }
+    
