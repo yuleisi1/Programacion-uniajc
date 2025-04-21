@@ -1,8 +1,0 @@
-Inicio
- "Ingrese el radio del círculo: "
-    Leer radio
-    longitud ← 2 * 3.1416 * radio
-    area ← 3.1416 * radio * radio
-  "La longitud de la circunferencia es: ", longitud
-  "El área del círculo es: ", area
-Fin

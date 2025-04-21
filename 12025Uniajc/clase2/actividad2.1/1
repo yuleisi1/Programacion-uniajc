@@ -1,8 +1,0 @@
-Inicio
-  "Ingrese la base del triángulo: "
-    Leer base
-     "Ingrese la altura del triángulo: "
-    Leer altura
-    superficie ← (1/2) * base * altura
-     "La superficie del triángulo es: ",superficie
-Fin
