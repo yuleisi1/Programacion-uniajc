@@ -15,7 +15,7 @@ public class calculadora {
 
      public double dividir(int a, int b) {
       if (b == 0) {
-     System.out.println("Error: División por cero");
+     System.out.println("Error: Division por cero");
      return 0;
      }
      return (double) a / b;
